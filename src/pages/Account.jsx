@@ -1,6 +1,6 @@
 import React from 'react';
 import SavedShows from '../components/SavedShows';
-//No llegue   a hacer la vista del account asi que redirige a Home al hacer click, sin embargo si esta hecha la lógica de Account en SavedMovies
+   //  Nota:  No di a tiempo a hacer la vista para Account  al hacerle click , sin embargo en SavedShows esta la lógica de Accounts  que si llegue  a  hacer
 const Account = () => {
   return (
     <>
