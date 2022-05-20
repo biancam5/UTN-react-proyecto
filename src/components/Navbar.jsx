@@ -5,7 +5,7 @@ import { UserAuth } from '../context/AuthContext';
 const Navbar = () => {
   const { user, logOut } = UserAuth();
   const navigate = useNavigate();
-   //  Nota:  No di a tiempo a hacer la vista para Account así que redirige a HOME al hacerle click , sin embargo en SavedShows esta la lógica de Accounts  que si llegue  a  hacer
+   //  Nota:  No di a tiempo a hacer la vista para Account  al hacerle click , sin embargo en SavedShows esta la lógica de Accounts  que si llegue  a  hacer
 
   const handleLogout = async () => {
     try {
